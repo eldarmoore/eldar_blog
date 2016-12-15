@@ -1,0 +1,383 @@
+body {
+    color: #4c4c4c;
+    font-family: arial;
+    background-color: rgb(255,255,255);
+    background-image: url(../images/bg7.png); background-repeat:no-repeat; background-position:top center; background-size:100%;
+}
+
+.page-wrapper {
+    margin: 0 auto;
+    width: 980px;
+}
+
+.form-container {
+    margin: 40px auto;
+    padding: 15px;
+    color: rgb(41,41,41);
+    background-color: rgba(1,1,1,0.2);
+    border-radius: 3px;
+}
+
+.form-width-add-block {
+  width: 435px;
+}
+
+.form-width-sign {
+  width: 222px;
+}
+
+form {
+  color: #414141;
+  border-radius: 3px;
+}
+
+form input {
+  border-radius: 3px;
+  border: none;
+
+  padding: 5px 10px 5px 10px;
+}
+
+form select {
+  padding: 2px;
+  width: 100px;
+  border: none;
+  border-radius: 3px;
+  margin-bottom: 20px;
+}
+
+form select option {
+  padding: 5px;
+}
+
+form label {
+  font-size: 12px;
+}
+form textarea {
+  border: none;
+  border-radius: 3px;
+  padding: 10px;
+}
+
+form button {
+
+}
+/* Header --------------------------------------------------------------------*/
+
+.user-block {
+    margin: 8px;
+    float: right;
+}
+
+.user-block a {
+    color: #fff;
+    list-style: none;
+    text-decoration: none;
+    padding: 3px 6px 3px 6px;
+    margin: 3px;
+    font-size: 0.8em;
+}
+/* Navigation */
+ul {
+    background-color: rgb(41,41,41);
+    list-style: none;
+    padding: 10px;
+    border-radius: 0px;
+}
+
+ul li {
+    font-size: 14px;
+    display: inline;
+    margin: 0px 15px;
+}
+
+ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+/* Navigation - END-----------------------------------------------------------*/
+/* Header - END---------------------------------------------------------------*/
+
+/* Blog ----------------------------------------------------------------------*/
+.blog-container {
+  width: 948px;
+  background-color: #F9F9F9;
+  border-radius: 3px;
+  margin-top: 10px;
+  padding: 15px;
+  color: #4c4c4c;
+  border: 1px solid #C9C9C9;
+  float: left;
+}
+
+.blog-comment-container {
+  width: 948px;
+  background-color: #F9F9F9;
+  border-radius: 3px;
+  margin-top: 10px;
+  padding: 15px;
+  color: #4c4c4c;
+  border: 1px solid #EDEDED;
+  float: left;
+}
+.user_comment_color {
+  color: #414141;
+  font-weight: bold;
+  font-style: italic;
+}
+
+.blog-container a {
+  text-decoration: none;
+  color: #414141;
+}
+
+.blog-container a:hover {
+  text-decoration: underline;
+}
+.blog-container p {
+  color: #a0a0a0;
+}
+.blog-headline {
+  font-size: 0.8em;
+  color: rgb(190,190,190);
+}
+.blog-author {
+  font-size: 0.8em;
+  margin-top: 10px;
+  float: left;
+}
+
+.blog-comments {
+  margin-left: 10px;
+  color: #fff;
+  font-size: 0.8em;
+  float: right;
+  padding: 5px 10px;
+  background-color: #414141;
+  border-radius: 3px;
+}
+.bottom-section {
+  background-color: red;
+}
+
+.blog-comment-data-container {
+  width: 948px;
+  float: left;
+}
+
+.blog-comment-head-container {
+  font-size: 0.7em;
+  width: 840px;
+  margin: 5px 0px;
+  color: #bfbfbf;
+}
+
+.blog-comment-text-container {
+  width: 926px;
+  border: 1px solid #e3e3e3;
+  border-radius: 3px;
+  background-color: #fff;
+  padding: 10px;
+  font-size: 0.8em;
+  color: #696969;
+}
+
+.blog-comment-container textarea {
+  width: 926px;
+  border: 1px solid #e3e3e3;
+}
+
+.leave-comment {
+  width: 100%;
+}
+/* Blog - END ----------------------------------------------------------------*/
+
+
+/* Footer --------------------------------------------------------------------*/
+
+footer {
+    text-align: center;
+    padding: 30px 0 30px 0;
+    clear: both;
+}
+/* Footer - END */
+
+/* Form */
+
+.pos-button {
+    color: #fff;
+    height: 30px;
+    background-color: #009245;
+    border: none;
+    border-radius: 3px;
+}
+
+.pos-button:hover {
+    background-color: rgb(0,200,69);
+}
+
+.neg-button {
+    color: #fff;
+    background-color: #E34F6F;
+    border: none;
+    border-radius: 3px;
+}
+
+.neg-button:hover {
+    background-color: #F7869E;
+}
+
+.w-220 {
+  width: 220px;
+}
+
+.w-200 {
+  width: 200px;
+}
+
+.w-222 {
+  width: 222px;
+}
+
+.w-100 {
+  width: 100px;
+}
+
+.w-422 {
+  width: 412px;
+}
+#delete input {
+  color: #fff;
+  padding: 5px;
+  background-color: #E34F6F;
+  border-radius: 3px;
+  border: none;
+}
+
+#delete input:hover {
+  background-color: #F7869E;
+}
+
+.content {
+}
+
+.content h3 {
+    margin: 20px 0 20px 0;
+    text-align: center;
+}
+
+.error-msg {
+    text-align: center;
+    height: 20px;
+    color: red;
+    padding:10px;
+    width: 283px;
+    margin:  0 auto;
+    display: block;
+    margin-bottom: 20px;
+}
+
+.pos-message {
+  /*position: absolute;
+  top: 98px;
+  z-index: -1;*/
+  margin: 5px 0px;
+  width: 970px;
+  padding: 5px 5px 5px 5px;
+  background-color: #009245;
+  text-align: center;
+  color: white;
+}
+
+.neg-message {
+  /*position: absolute;
+  top: 98px;
+  z-index: -1;*/
+  margin: 5px 0px;
+  width: 970px;
+  padding: 5px 5px 5px 5px;
+  background-color: #E34F6F;
+  text-align: center;
+  color: white;
+}
+
+table {
+  /*margin-top: 10px;*/
+  display: table;
+  border-collapse:separate;
+  border-spacing: 0px;
+  border-color: gray;
+  width: 100%;
+}
+
+table th {
+  padding: 10px;
+  background-color: #494949;
+  color: #fff;
+  font-size: 10px;
+}
+
+table tr {
+  border-top: 1px solid;
+  background-color: #E6E6E6;
+}
+
+table tr:hover {
+  border: 1px solid #414141;
+  color: #414141;
+}
+
+tr:nth-child(even){background-color: #f2f2f2}
+
+table td {
+  font-size: 14px;
+  padding:10px;
+}
+
+#edit-user input {
+  width: 80px;
+  color: #fff;
+  padding: 2px;
+  border-radius: 3px;
+  background-color: #FFBB00;
+  border: none;
+}
+
+#edit-user input:hover {
+  background-color: #FFDC7D;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.color-pos {
+  color: #009245;
+}
+
+.color-neg {
+  color: #E34F6F;
+}
+
+.float-right {
+  float: right;
+}
+
+.float-left {
+  float:left;
+}
+
+.select-div {
+  width: 100px;
+  /*background-color: black;*/
+  float: left;
+}
+
+.margin-top {
+  margin-top: 10px;
+}
+
+.border {
+  border: 1px solid #414141;
+}
+/* Form - END-----------------------------------------------------------------*/
